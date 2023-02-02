@@ -9,7 +9,7 @@
   top: 0;
   width: 100%;
   left: 0%;
-  background-color: #111;
+  background-color: #000;
   border-bottom: 1px solid #60f;
   white-space:nowrap;
   min-width: 500px;
@@ -40,7 +40,7 @@
 }
 
 .nav li a:hover {
-  background-color: #333;
+  background-color: #111;
   transition: .75s;
 }
 
@@ -57,10 +57,14 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left bottom;
+  
+  border: #000 solid 1px;
+  border-radius: 15px;
 
   width: 16px;
   height: 16px;
   margin: 0;
+  margin-left: 5px;
   padding: 0;
   bottom:0%;
 }
