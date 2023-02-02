@@ -1,0 +1,16 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial;
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+.bld{
+  font-weight: bold;
+}
+
+a:link {
+  color: #b0f;
+}

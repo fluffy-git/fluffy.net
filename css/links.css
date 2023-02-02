@@ -1,0 +1,146 @@
+.banner {
+  background-image: url(../links/banner.jpg);
+  background-size: cover;
+  background-position: center center;
+  top: 44px;
+  left: 0px;
+  height: 30vh;
+  width: 100%;
+  position: fixed;
+  text-align: center ;
+  transition: 2s;
+}
+.banner:after {
+  content: '';
+  position: absolute;
+  top:0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0;
+  z-index: -1
+}
+.banner:hover {
+  color: #f0f;
+  font-size: 35px;
+  overflow: hidden;
+  opacity: 1;
+  transition: 2s;
+}
+
+
+.content {
+  position: relative;
+  text-align: justify;
+  width: 97vw;
+  top: 30vh;
+  margin: auto;
+  max-width: 95vw;
+  background: #333;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 10px;
+  z-index: 0;
+  transition: 0.5s;
+  padding-top: 0px;
+  text-align: center;
+}
+
+.content h2 {
+  font-weight: bold;
+  font-size: 25px;
+  padding-top: 0px;
+}
+
+.under {
+  font-size: 20px;
+}
+
+.linkul {
+  transition: 0.5s;
+  height: 425px;
+  width: 85vw;
+  border: #333 solid 2px;
+  border-radius: 25px;
+  background-color: #000;
+  oferflow-y: hidden;
+  float: center;
+  display: inline-block;
+  overflow-x: scroll;
+  white-space: nowrap;
+  overflow-y: hidden;
+}
+
+
+.link{
+  font-weight: bold;
+  text-decoration: none !important;
+  color: interhit;
+  transition: 0.5s;
+  background-color: #111;
+  border: #111 solid 1px;
+  border-radius: 15px;
+  width: 250px;
+  height: 315px;
+  font-size: 16px;
+  display: inline-block;
+  text-align: center;
+  list-style-type: none;
+  margin: 25px;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.link:hover {
+  background-color: #333;
+  border: #333 solid 1px;
+  border-radius: 15px;
+  width: 300px;
+  height: 365px;
+  font-size: 20px;
+  transition: 0.5s;
+  margin-top: 25px;
+}
+
+
+.licon {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.5s;
+}
+
+.licon:hover {
+  width: 225px;
+  height: 225px;
+  transition: 0.5s;
+}
+
+.adr {
+  color: #e0f;
+  text-decoration: none !important;
+  transition: 0.5s;
+}
+.adr:hover {
+  color: #60f;
+  transition: 0.5s;
+  text-decoration: none !important;
+}
+
+.linksel {
+  height: 425px;
+  width: 90vw;
+  border: #fff solid 1px;
+  overflow-x: auto;
+  oferflow-y: hidden;
+  white-space: nowrap;
+  float: center;
+  display: inline-block
+}

@@ -1,0 +1,66 @@
+.banner {
+  background-image: url(../index/banner.jpg);
+  background-size: cover;
+  background-position: center center;
+  top: 44px;
+  left: 0px;
+  height: 30vh;
+  width: 100%;
+  position: fixed;
+  text-align: center ;
+  transition: 2s;
+}
+.banner:after {
+  content: '';
+  position: absolute;
+  top:0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0;
+  z-index: -1
+}
+.banner:hover {
+  color: cyan;
+  font-size: 35px;
+  overflow: hidden;
+  opacity: 1;
+  transition: 2s;
+}
+
+
+.content {
+  position: relative;
+  text-align: justify;
+  width: 97vw;
+  top: 30vh;
+  margin: auto;
+  max-width: 95vw;
+  background: #333;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 10px;
+  z-index: 0;
+  transition: 1s;
+  padding-top: 0px;
+}
+
+.content h2 {
+  font-weight: bold;
+  font-size: 25px;
+  padding-top: 0px;
+}
+
+.artistanim {transition: 1s;}
+.artistanim:hover {
+  font-size: 25px;
+  transition: 1s;
+  color: #90f;
+  font-weight: bold;
+}
+
+.under {
+  font-size: 20px;
+}
